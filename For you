@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To the Girl Who Has My Heart</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe6f0, #ffccdd);
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      color: #800040;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: #fff0f5;
+      box-shadow: 0 0 20px #ffb3d9;
+      border-radius: 20px;
+      margin-top: 50px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      color: #ff3399;
+    }
+
+    .intro, .final, .poem {
+      margin-top: 30px;
+      font-size: 1.2em;
+      line-height: 1.7;
+    }
+
+    .poem {
+      font-style: italic;
+      background-color: #ffe6f0;
+      border-left: 5px solid #ff66b2;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .heart {
+      text-align: center;
+      font-size: 4em;
+      margin: 30px 0;
+      color: #ff3399;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .button {
+      background-color: #ff66b2;
+      color: white;
+      font-size: 1.2em;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #e60073;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 40px;
+      color: #b30059;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>To the Girl Who Has My Heart</h1>
+
+    <div class="intro">
+      <p>Hey you,</p>
+      <p>I could write you poems filled with stars and roses, but none of them would feel real enough. So instead, I’m sharing Shakespeare’s <strong>Sonnet 116</strong>—a sonnet about the enduring power of love.</p>
+    </div>
+
+    <div class="poem">
+      <p>Let me not to the marriage of true minds<br>
+      Admit impediments. Love is not love<br>
+      Which alters when it alteration finds,<br>
+      Or bends with the remover to remove:</p>
+
+      <p>O no! it is an ever-fixed mark<br>
+      That looks on tempests and is never shaken;<br>
+      It is the star to every wandering bark,<br>
+      Whose worth's unknown, although his height be taken.</p>
+
+      <p>Love's not Time's fool, though rosy lips and cheeks<br>
+      Within his bending sickle's compass come:<br>
+      Love alters not with his brief hours and weeks,<br>
+      But bears it out even to the edge of doom.</p>
+
+      <p>If this be error and upon me proved,<br>
+      I never writ, nor no man ever loved.</p>
+    </div>
+
+    <div class="intro">
+      <p>What I’m saying is: you're not a fairytale—and I wouldn't want you to be. You're real, you're beautiful, and every moment with you feels like a heartwarming playlist and a thousand pink butterflies.</p>
+    </div>
+
+    <div class="heart">♥</div>
+
+    <div class="final">
+      <p>So here I am…</p>
+      <p><strong>Will you be my girlfriend?</strong></p>
+    </div>
+
+    <div class="button-container">
+      <button class="button" onclick="alert('You said YES! I’m the happiest person alive!')">Yes</button>
+      <button class="button" onclick="alert('Still love you either way.')">Let me think</button>
+    </div>
+  </div>
+
+  <footer>
+    Made with love and pink vibes
+  </footer>
+</body>
+</html>
